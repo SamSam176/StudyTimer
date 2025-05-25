@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px black;
+  display: inline-block;
+}
+
+#timer {
+  font-size: 72px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff6347;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #e5533d;
+}
+
+#sessione {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #444;
+}
+
+.imp_custom, .statistiche {
+  margin-top: 20px;
+  margin-left:50px;
+  text-align: left;
+  display: inline-block;
+}
+
+.imp_custom label, .statistiche p {
+  display: block;
+  margin: 5px 0;
+}
+

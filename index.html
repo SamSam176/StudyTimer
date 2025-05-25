@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head> 
+  <!-- Metadati -->
+  <meta 
+  charset="UTF_8"
+  name="viewport" content="width=device-width, initial-scale=1.0"
+  name="description" content="Utilizza lo Study Timer per migliorare la tua produttività 
+  con sessioni di lavoro concentrate e pause regolari. Personalizza i tempi e monitora le tue statistiche."
+  name="author" content="Samuele Morlando"
+  name="robots" content="index, follow">
+
+  <title>Study Timer</title>
+  <link rel="stylesheet" href="style.css"> <!-- Collegamento fogli di stile CSS -->
+</head>
+<body>
+  <!-- Box Timer -->
+  <div class="container">
+    <h1>Study Timer</h1>
+    <div id="timer">25:00</div>
+    <div class="buttons">
+      <button id="start">Avvia</button>
+      <button id="pause">Pausa</button>
+      <button id="reset">Resetta</button>
+    </div>
+    <p id="sessione">Sessione di lavoro</p>
+    <p>Utilizza lo Study Timer per migliorare la tua produttività 
+       con sessioni di lavoro concentrate <br> e pause regolari! Personalizza i tempi
+       e monitora le tue statistiche. Al termine di ogni sessione di <br>studio verrà avviata
+       una pausa breve e al completamento di 4 sessioni di studio una pausa lunga. </p>
+  </div>
+  <!-- Impostazioni personalizzate -->
+  <div class="imp_custom">
+    <h2>Personalizza Tempi</h2>
+    <label for="durata_studio">Lavoro (min):</label>
+    <input type="number" id="durata_studio" min="1" max="60" value="25">
+    <label for="durata_pausa_b">Pausa breve (min):</label>
+    <input type="number" id="durata_pausa_b" min="1" max="30" value="5">
+    <label for="durata_pausa_l">Pausa lunga (min):</label>
+    <input type="number" id="durata_pausa_l" min="1" max="60" value="15">
+  </div>
+  <!-- Statistiche studio -->
+  <div class="statistiche">
+    <h2>Statistiche</h2>
+    <p>Sessioni completate: <span id="sessioni_completate">0</span></p>
+    <p>Tempo totale di lavoro: <span id="tempo_studio_tot">0</span> minuti</p>
+    </div>
+  </div>
+  <script src="script.js"></script> <!-- Collegamento codice javascript -->
+</body>
+</html>
