@@ -8,7 +8,7 @@ let TimerCount = 0;
 let SessioniCompletate = 0;
 let TempoLavoroTot = 0;
 
-const audioCambioSessione = new Audio("https://jmp.sh/TvhrF4Du");
+const audioCambioSessione = new Audio("https://SamSam176.github.io/StudyTimer/Audio/Avviso.mp3");
 
 //Collegamento codice HTML
 const TimerDisplay = document.getElementById("timer");
